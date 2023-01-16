@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 import java.util.Collection;
 
+//annotation to connect with database entity
 @Entity
 @Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class User {

@@ -2,6 +2,7 @@ package com.example.loginregisterbackend.model;
 
 import jakarta.persistence.*;
 
+//annotation to connect with database entity
 @Entity
 @Table(name = "role")
 public class Role {
