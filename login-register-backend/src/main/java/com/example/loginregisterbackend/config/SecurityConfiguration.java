@@ -11,6 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+//java class includes security authentication for login and register page
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration extends  WebSecurityConfiguration{
